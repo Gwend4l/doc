@@ -36,7 +36,7 @@ YEP à respecter pour atteindre le niveau 1:
 - Installation privée (sécurisée par le SSO).
 - Installation publique.
 - Installation multi-instance.
-- Désinstallation dans les mêmes circonstances
+- Désinstallation dans les mêmes circonstances.
 
 *Si une application ne permet pas certaines configurations d'installations, celles-ci doivent être indiqués clairement dans le readme du package. Toutefois, le niveau 2 ne peut pas être atteint si une configuration d'installation est volontairement écartée sans raison valable.*  
 *Cela n'empêche pas de restreindre volontairement les installations publiques, privées ou multi-instance si l'application le justifie.*
@@ -59,7 +59,7 @@ YEP à respecter pour atteindre le niveau 3:
 **L'application prend en charge ldap et HTTP AUTH**  
 L'application gère ses utilisateurs directement à partir de la [base ldap de YunoHost](https://github.com/YunoHost/SSOwat/blob/366dd6c4438e6550f7438c36893690b628340185/config.lua#L50-L53) et permet la connexion unifiée en utilisant l'[authentification HTTP](https://fr.wikipedia.org/wiki/Authentification_HTTP) depuis le SSO.
 
-*Si l'application n'est pas capable de prendre en charge un annuaire ldap ou l'authentification HTTP, ce niveau peux être ignoré.*  
+*Si l'application n'est pas capable de prendre en charge un annuaire ldap ou l'authentification HTTP, ce niveau peut être ignoré.*  
 *Il faut toutefois être en mesure de justifier de cette impossibilité*
 
 YEP à respecter pour atteindre le niveau 4:
@@ -68,7 +68,7 @@ YEP à respecter pour atteindre le niveau 4:
 
 ### Niveau 5
 **L'application ne présente aucune erreur dans [Package linter](https://github.com/YunoHost/package_linter).**  
-*Il peux y avoir des faux positifs dans Package linter. Ces situations seront gérées au cas par cas.*
+*Il peut y avoir des faux positifs dans Package linter. Ces situations seront gérées au cas par cas.*
 
 YEP à respecter pour atteindre le niveau 5:
 - *[YEP 1.3](https://github.com/YunoHost/doc/blob/master/packaging_apps_guidelines_fr.md#yep-13---indiquer-la-licence-associ%C3%A9e-au-paquet---valid%C3%A9--auto--working-) : Indiquer la licence associée au paquet*
@@ -129,7 +129,7 @@ YEP à respecter pour atteindre le niveau 9:
 
 ### Niveau 10
 **L'application est jugée parfaite !**  
-Ce niveau ultime pour une application ne peux être atteint que suite à étude approfondie du package et par la validation du groupe Apps.
+Ce niveau ultime pour une application ne peut être atteint que suite à une étude approfondie du package et par la validation du groupe Apps.
 
 
 ## Comment demander l'intégration d'une application dans la liste officielle ?
@@ -139,7 +139,7 @@ Une application officielle doit être régulièrement mise à jour et suivre au 
 
 Pour prétendre à rejoindre la liste officielle, l'application doit avoir atteint au moins le niveau 6 et doit être un logiciel libre.
 
-Si tout ces prérequis sont satisfaits, vous pouvez créer une pull request sur la liste officielle ou faire une demande sur le forum.  
+Si tous ces prérequis sont satisfaits, vous pouvez créer une pull request sur la liste officielle ou faire une demande sur le forum.  
 Dés lors, le package sera vérifié par les membres du groupe Apps et la décision de l'inclure dans la liste des applications officielles sera débattue par le groupe.  
 Si tout va bien l'application rejoindra les applications officielles de YunoHost.
 
@@ -157,7 +157,7 @@ L'application s'installe et se désinstalle correctement dans certains cas.
 L'application s'installe et se désinstalle correctement dans toutes les configurations communes.
 
 **Niveau 3**  
-L'application peux être mise à jour.
+L'application peut être mise à jour.
 
 **Niveau 4**  
 L'application utilise directement les utilisateurs YunoHost et permet l'identification unique à partir du portail YunoHost.
